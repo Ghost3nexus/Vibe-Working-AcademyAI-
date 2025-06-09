@@ -1,7 +1,8 @@
 {
-  "name": "vibe-working-ai-academy",
-  "version": "0.1.0",
+  "name": "aivance-corporate-training",
+  "version": "1.0.0",
   "private": true,
+  "description": "AIVANCEは法人向け生成AIスクール - 実務直結のAIスキルを最速で習得",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,17 +1,18 @@
-# Vibe Working Academy AI
+# AIVANCE - 法人向け生成AIスクール
 
-Welcome to the Vibe Working Academy AI project repository.
+最速で「業務に使える」生成AIスキルを身につける法人向け教育プラットフォーム
 
-## Overview
+## 概要
 
-This project aims to create an AI-powered learning platform for the Vibe Working Academy, designed to enhance educational experiences through artificial intelligence.
+AIVANCEは、実務直結のAIテンプレート50種類と週次アウトプット型カリキュラムで、御社の全社員がAIを使いこなすチームへと変革する生成AIスクールです。
 
-## Features
+## 主な特徴
 
-- AI-driven learning modules
-- Personalized learning paths
-- Interactive educational content
-- Progress tracking and analytics
+- **実務直結のAIテンプレート50種類** - すぐに業務で使える実践的なテンプレート
+- **週次Sprint型カリキュラム** - 確実に成果物を作りながら学習
+- **Slackでの実務家サポート** - 48時間以内回答の充実したサポート体制
+- **ツール込みの学習環境** - Dify/Make.com/CapCutなど最新ツールを提供
+- **助成金・税制対応** - 人材開発支援助成金の活用サポート
 
 ## 開発を始める
 
