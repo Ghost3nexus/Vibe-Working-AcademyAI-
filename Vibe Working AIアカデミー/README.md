@@ -13,34 +13,34 @@ This project aims to create an AI-powered learning platform for the Vibe Working
 - Interactive educational content
 - Progress tracking and analytics
 
-## Getting Started
+## 開発を始める
 
-### Prerequisites
+### 必要な環境
 
-- Node.js (v14 or higher)
-- npm or yarn package manager
+- Node.js (v18以上)
+- npm または yarn パッケージマネージャー
 
-### Installation
+### インストール手順
 
-1. Clone the repository:
+1. リポジトリをクローン:
 ```bash
 git clone https://github.com/Ghost3nexus/Vibe-Working-AcademyAI-.git
 cd Vibe-Working-AcademyAI-
 ```
 
-2. Install dependencies:
+2. 依存関係をインストール:
 ```bash
 npm install
 ```
 
-3. Set up environment variables:
-```bash
-cp .env.example .env
-```
-
-4. Start the development server:
+3. 開発サーバーを起動:
 ```bash
 npm run dev
+```
+
+4. ブラウザで確認:
+```
+http://localhost:3000
 ```
 
 ## Project Structure
