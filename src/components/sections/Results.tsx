@@ -157,7 +157,7 @@ export default function Results() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            450社以上の導入実績と1,200名を超える受講者が証明する<br />
+実践的なカリキュラムと手厚いサポートで実現する<br />
             確実なROI向上と業務効率化
           </p>
         </div>
@@ -323,7 +323,7 @@ export default function Results() {
         {/* 導入企業ロゴ（仮想） */}
         <div className="text-center mb-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-8">
-            450社以上の企業様にご導入いただいています
+            先進企業での導入事例
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center opacity-60">
             {['Tech Corp', 'Innovation Ltd', 'Digital Solutions', 'Future Systems', 'Smart Business', 'AI Ventures'].map((company, index) => (

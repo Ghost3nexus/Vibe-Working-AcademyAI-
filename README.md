@@ -1,72 +1,125 @@
-# Vibe Working アカデミー - 法人向け生成AIスクール
+# Vibe Working アカデミー
 
-最速で「業務に使える」生成AIスキルを身につける法人向け教育プラットフォーム
+法人向け生成AIスクール - 実務直結のAIスキルを最速で習得
 
-## 概要
+## 🌟 プロジェクト概要
 
-Vibe Working アカデミーは、実務直結のAIテンプレート50種類と週次アウトプット型カリキュラムで、御社の全社員がAIを使いこなすチームへと変革する生成AIスクールです。
+Vibe Working アカデミーは、企業の全社員がAIを活用して業務効率化を実現できるよう、実践的なカリキュラムと手厚いサポートを提供する法人向けAI教育プラットフォームです。
 
-## 主な特徴
+## ✨ 主な特徴
 
-- **実務直結のAIテンプレート50種類** - すぐに業務で使える実践的なテンプレート
-- **週次Sprint型カリキュラム** - 確実に成果物を作りながら学習
-- **Slackでの実務家サポート** - 48時間以内回答の充実したサポート体制
-- **ツール込みの学習環境** - Dify/Make.com/CapCutなど最新ツールを提供
-- **助成金申請AIサポート** - 人材開発支援助成金（最大75%還付）の申請をAIチャットボットがサポート
+### 🎯 実践的なカリキュラム
+- **50種類のAIテンプレート** - すぐに業務で使える実践的なテンプレートを提供
+- **8週間の週次Sprintカリキュラム** - 毎週1つずつ成果物を作成しながら学習
+- **最新AIツールの提供** - Dify, Make.com, CapCutなどの最新ツールを学習環境に含む
 
-## 開発を始める
+### 👥 充実したサポート体制
+- **Slackでの48時間内回答保証** - 実務家が質問に迅速対応
+- **コミュニティイベント** - 定期的なワークショップやセミナーを開催
+- **カスタマーサクセス** - 導入から定着まで伴走
 
-### 必要な環境
+### 💰 助成金サポート
+- **AIチャットボットによる申請支援** - 人材開発支援助成金（最大75%還付）の申請プロセスを自動化
+- **書類作成の自動化** - 複雑な申請書類をAIがドラフト作成
+- **専門家レビュー** - 最終確認は提携の社労士・行政書士が実施
+
+## 🚀 技術スタック
+
+### フロントエンド
+- **Next.js 14.2.3** - Reactフレームワーク
+- **TypeScript** - 型安全な開発
+- **Tailwind CSS** - ユーティリティファーストCSS
+- **React 18.3** - UIライブラリ
+
+### デプロイ
+- **Vercel** - ホスティングプラットフォーム
+- **GitHub Actions** - CI/CD
+
+## 🔧 開発環境のセットアップ
+
+### 前提条件
 
 - Node.js (v18以上)
 - npm または yarn パッケージマネージャー
 
 ### インストール手順
 
-1. リポジトリをクローン:
-```bash
-git clone https://github.com/Ghost3nexus/Vibe-Working-AcademyAI-.git
-cd Vibe-Working-AcademyAI-
+1. **リポジトリをクローン**
+   ```bash
+   git clone https://github.com/Ghost3nexus/Vibe-Working-AcademyAI-.git
+   cd vibe-working-ai-academy
+   ```
+
+2. **依存関係をインストール**
+   ```bash
+   npm install
+   ```
+
+3. **開発サーバーを起動**
+   ```bash
+   npm run dev
+   ```
+
+4. **ブラウザでアクセス**
+   ```
+   http://localhost:3000
+   ```
+
+## 📁 プロジェクト構成
+
+```
+vibe-working-ai-academy/
+├── src/
+│   ├── app/              # Next.js App Router
+│   │   ├── layout.tsx    # ルートレイアウト
+│   │   ├── page.tsx      # ホームページ
+│   │   └── globals.css   # グローバルCSS
+│   └── components/
+│       └── sections/     # ページセクションコンポーネント
+│           ├── Hero.tsx
+│           ├── Services.tsx
+│           ├── Curriculum.tsx
+│           ├── Pricing.tsx
+│           ├── SubsidySupport.tsx
+│           ├── FAQ.tsx
+│           └── ContactForm.tsx
+├── public/              # 静的アセット
+├── package.json         # プロジェクト設定
+├── tailwind.config.js   # Tailwind CSS設定
+├── tsconfig.json        # TypeScript設定
+└── vercel.json          # Vercel設定
 ```
 
-2. 依存関係をインストール:
-```bash
-npm install
+## 📝 スクリプト
+
+```json
+{
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "vercel-build": "next build"
+}
 ```
 
-3. 開発サーバーを起動:
-```bash
-npm run dev
-```
+## 🌐 デプロイ
 
-4. ブラウザで確認:
-```
-http://localhost:3000
-```
+本プロジェクトはVercelでホスティングされており、`main`ブランチへのpush時に自動的にデプロイされます。
 
-## Project Structure
+## 🤝 Contributing
 
-```
-Vibe-Working-AcademyAI-/
-├── src/              # Source code
-├── public/           # Public assets
-├── config/           # Configuration files
-├── tests/            # Test files
-└── docs/             # Documentation
-```
+プルリクエストを歓迎します！改善提案がある場合は、Issueを作成してください。
 
-## Contributing
+## 📧 Contact
 
-We welcome contributions! Please feel free to submit a Pull Request.
+ご質問やサポートについては、Vibe Working アカデミーチームまでお問い合わせください。
 
-## License
+## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions or support, please contact the Vibe Working Academy team.
+This project is licensed under the MIT License.
 
 ---
 
-Built with ❤️ by the Vibe Working Academy team
+<p align="center">
+  Built with ❤️ by the Vibe Working アカデミー team
+</p>
