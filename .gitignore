@@ -74,3 +74,4 @@ env/
 *.rar
 *.tar
 *.zip
+.vercel

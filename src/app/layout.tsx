@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import CustomCursor from '@/components/ui/CustomCursor'
+import ParticleBackground from '@/components/ui/ParticleBackground'
 
 export const metadata: Metadata = {
   title: 'Vibe Working アカデミー | 法人向け生成AIスクール',
@@ -14,6 +16,8 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
+        <ParticleBackground />
+        <CustomCursor />
         {children}
       </body>
     </html>

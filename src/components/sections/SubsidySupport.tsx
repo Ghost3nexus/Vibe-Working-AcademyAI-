@@ -162,20 +162,20 @@ export default function SubsidySupport() {
   const calculation = calculateSubsidy()
 
   return (
-    <section id="subsidy" className="section-padding bg-gradient-to-br from-green-50 to-blue-50">
+    <section id="subsidy" className="section-padding bg-transparent">
       <div className="container-custom">
         {/* セクションタイトル */}
         <div className="text-center mb-16">
-          <span className="inline-block px-6 py-2 bg-green-100 text-green-800 rounded-full text-sm font-semibold mb-4">
+          <span className="inline-block px-6 py-2 dark-card text-white rounded-full text-sm font-semibold mb-4">
             助成金・補助金サポート
           </span>
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
+            <span className="gradient-text">
               助成金を活用して
             </span>
             AI研修をお得に導入
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             人材開発支援助成金（最大75%還付）をはじめ、各種助成金の申請をサポート。<br />
             AIチャットボットと専門家が書類準備をサポートいたします。
           </p>
@@ -183,7 +183,7 @@ export default function SubsidySupport() {
 
         {/* 助成金プログラム選択 */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+          <h3 className="text-2xl font-bold text-white text-center mb-8">
             利用可能な助成金・補助金制度
           </h3>
           
@@ -192,53 +192,53 @@ export default function SubsidySupport() {
               <button
                 key={program.id}
                 onClick={() => setSelectedProgram(program.id)}
-                className={`p-6 rounded-xl border-2 text-left transition-all duration-300 ${
+                className={`p-6 rounded-xl border-2 text-left transition-all duration-300 hover-target ${
                   selectedProgram === program.id
-                    ? 'border-blue-600 bg-blue-50 shadow-lg scale-105'
-                    : 'border-gray-200 bg-white hover:border-blue-300 hover:shadow-md'
+                    ? 'border-purple-400 dark-card shadow-lg scale-105'
+                    : 'border-gray-600 dark-card hover:border-purple-400 hover:shadow-md'
                 }`}
               >
                 <div className="text-3xl mb-3">{program.icon}</div>
-                <h4 className="font-bold text-gray-900 mb-2 text-sm">{program.name}</h4>
-                <div className="text-xs text-gray-600 mb-2">{program.maxAmount}</div>
-                <div className="text-xs text-blue-600 font-semibold">{program.coverage}</div>
+                <h4 className="font-bold text-white mb-2 text-sm">{program.name}</h4>
+                <div className="text-xs text-gray-300 mb-2">{program.maxAmount}</div>
+                <div className="text-xs gradient-text font-semibold">{program.coverage}</div>
               </button>
             ))}
           </div>
 
           {/* 選択されたプログラムの詳細 */}
           {selectedProgramData && (
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+            <div className="dark-card rounded-2xl p-8 shadow-lg border border-gray-600">
               <div className="grid lg:grid-cols-2 gap-8">
                 {/* 左側：基本情報 */}
                 <div>
                   <div className="flex items-center mb-4">
                     <div className="text-4xl mr-4">{selectedProgramData.icon}</div>
                     <div>
-                      <h4 className="text-2xl font-bold text-gray-900">{selectedProgramData.name}</h4>
-                      <div className="text-green-600 font-semibold">{selectedProgramData.maxAmount}</div>
+                      <h4 className="text-2xl font-bold text-white">{selectedProgramData.name}</h4>
+                      <div className="gradient-text font-semibold">{selectedProgramData.maxAmount}</div>
                     </div>
                   </div>
 
-                  <p className="text-gray-700 mb-6">{selectedProgramData.description}</p>
+                  <p className="text-gray-300 mb-6">{selectedProgramData.description}</p>
 
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h5 className="font-bold text-gray-900 mb-3">対象企業</h5>
+                      <h5 className="font-bold text-white mb-3">対象企業</h5>
                       <ul className="space-y-2">
                         {selectedProgramData.eligibility.map((item, index) => (
                           <li key={index} className="flex items-start">
                             <svg className="w-4 h-4 text-green-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
-                            <span className="text-sm text-gray-700">{item}</span>
+                            <span className="text-sm text-gray-300">{item}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
 
                     <div>
-                      <h5 className="font-bold text-gray-900 mb-3">必要手続き</h5>
+                      <h5 className="font-bold text-white mb-3">必要手続き</h5>
                       <ul className="space-y-2">
                         {selectedProgramData.requirements.map((item, index) => (
                           <li key={index} className="flex items-start">
@@ -254,8 +254,8 @@ export default function SubsidySupport() {
                 </div>
 
                 {/* 右側：サポート内容 */}
-                <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-6">
-                  <h5 className="text-xl font-bold text-gray-900 mb-4">Vibe Working アカデミーのサポート内容</h5>
+                <div className="dark-card border border-purple-400 rounded-xl p-6">
+                  <h5 className="text-xl font-bold text-white mb-4">Vibe Working アカデミーのサポート内容</h5>
                   <div className="space-y-4">
                     <div className="flex items-start">
                       <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3 mt-1">
@@ -264,8 +264,8 @@ export default function SubsidySupport() {
                         </svg>
                       </div>
                       <div>
-                        <div className="font-semibold text-gray-900">AIチャットボットによる書類作成支援</div>
-                        <div className="text-sm text-gray-600">複雑な申請書類のドラフトをAIが自動生成</div>
+                        <div className="font-semibold text-white">AIチャットボットによる書類作成支援</div>
+                        <div className="text-sm text-gray-300">複雑な申請書類のドラフトをAIが自動生成</div>
                       </div>
                     </div>
 
@@ -276,8 +276,8 @@ export default function SubsidySupport() {
                         </svg>
                       </div>
                       <div>
-                        <div className="font-semibold text-gray-900">申請サポート実績</div>
-                        <div className="text-sm text-gray-600">申請書類作成から受給まで伴走サポート</div>
+                        <div className="font-semibold text-white">申請サポート実績</div>
+                        <div className="text-sm text-gray-300">申請書類作成から受給まで伴走サポート</div>
                       </div>
                     </div>
 
@@ -288,16 +288,16 @@ export default function SubsidySupport() {
                         </svg>
                       </div>
                       <div>
-                        <div className="font-semibold text-gray-900">必要に応じて専門家がレビュー</div>
-                        <div className="text-sm text-gray-600">最終確認を社労士・行政書士が実施</div>
+                        <div className="font-semibold text-white">必要に応じて専門家がレビュー</div>
+                        <div className="text-sm text-gray-300">最終確認を社労士・行政書士が実施</div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="mt-6 p-4 bg-white rounded-lg border-2 border-green-200">
+                  <div className="mt-6 p-4 dark-card rounded-lg border-2 border-purple-400">
                     <div className="text-center">
-                      <div className="text-sm text-gray-600">処理期間目安</div>
-                      <div className="text-lg font-bold text-green-600">{selectedProgramData.processingTime}</div>
+                      <div className="text-sm text-gray-300">処理期間目安</div>
+                      <div className="text-lg font-bold gradient-text">{selectedProgramData.processingTime}</div>
                     </div>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function SubsidySupport() {
 
         {/* 助成金受給フロー */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+          <h3 className="text-2xl font-bold text-white text-center mb-8">
             助成金受給までの流れ
           </h3>
           <div className="max-w-4xl mx-auto">
