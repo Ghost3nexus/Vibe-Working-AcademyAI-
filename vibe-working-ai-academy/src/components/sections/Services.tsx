@@ -19,13 +19,6 @@ const services: Service[] = [
     icon: '🎓'
   },
   {
-    id: 2,
-    title: '実践コース',
-    description: 'ビジネスで活用できるAI技術を、実際のケーススタディを通じて習得',
-    features: ['ビジネスケース分析', 'AI導入戦略', 'ROI最適化', 'プロジェクト管理'],
-    icon: '💼'
-  },
-  {
     id: 3,
     title: '専門コース',
     description: '特定の業界・分野に特化したAI活用法を深く学ぶ',
@@ -67,7 +60,7 @@ export default function Services() {
         {/* セクションタイトル */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mincho mb-4">
-            選べる3つのコース
+            選べる2つのコース
           </h2>
           <p className="text-lg text-wa-gray-700 max-w-2xl mx-auto">
             あなたのレベルと目的に合わせて、最適な学習プログラムをご用意しています

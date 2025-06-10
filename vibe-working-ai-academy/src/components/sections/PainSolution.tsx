@@ -38,7 +38,7 @@ const solutions = [
     id: 2,
     icon: '📊',
     title: '成果物付きSprintカリキュラム',
-    description: 'GitHubやNotionで成果物を管理。週次で実際のプロジェクトを完成させ、ROI説明用の資料も自動生成。',
+    description: '週次で実際のプロジェクトを完成。',
     feature: '工数削減率70%実績'
   },
   {
@@ -125,7 +125,7 @@ export default function PainSolution() {
         {/* 矢印（痛み→解決） */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full text-lg font-bold shadow-lg">
-            <span className="mr-4">AIVANCEなら解決できます</span>
+            <span className="mr-4">Vibe Working Academy なら解決できます</span>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
@@ -137,7 +137,7 @@ export default function PainSolution() {
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                AIVANCE
+                Vibe Working Academy
               </span>
               の解決アプローチ
             </h2>
@@ -189,7 +189,7 @@ export default function PainSolution() {
         {/* CTA */}
         <div className="text-center mt-16">
           <p className="text-lg text-gray-600 mb-8">
-            まずは3分でわかるAIVANCEの紹介動画をご覧ください
+            まずは3分でわかるVibe Working Academyの紹介動画をご覧ください
           </p>
           <a
             href="#video"

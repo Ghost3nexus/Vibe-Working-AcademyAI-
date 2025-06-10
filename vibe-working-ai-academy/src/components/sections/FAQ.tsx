@@ -13,7 +13,7 @@ const faqData: FAQItem[] = [
   {
     id: 1,
     question: 'AI知識がない社員でも受講できますか？',
-    answer: 'はい、全く問題ありません。AIVANCEは非エンジニア向けに設計されており、プログラミング経験不要で実務で使えるAIスキルを習得できます。実際に受講者の85%がAI未経験からスタートし、8週間で業務効率化を実現しています。',
+    answer: 'はい、全く問題ありません。Vibe Working Academyは非エンジニア向けに設計されており、プログラミング経験不要で実務で使えるAIスキルを習得できます。実際に受講者の85%がAI未経験からスタートし、8週間で業務効率化を実現しています。',
     category: 'general'
   },
   {
@@ -27,12 +27,6 @@ const faqData: FAQItem[] = [
     question: '助成金は本当に受給できますか？',
     answer: '当社の助成金サポートでは95%以上の受給実績があります。人材開発支援助成金をはじめ、お客様の状況に最適な制度をご提案し、申請書類作成から受給まで完全サポートいたします。事前の無料診断も実施しています。',
     category: 'pricing'
-  },
-  {
-    id: 4,
-    question: 'セキュリティ面での対策はどうなっていますか？',
-    answer: 'Enterpriseプランでは、データの暗号化、アクセス制御、監査ログの管理を徹底しています。また、お客様の社内セキュリティポリシーに合わせたカスタマイズやオンプレミス対応も可能です。ISO27001準拠の体制でサポートいたします。',
-    category: 'implementation'
   },
   {
     id: 5,
@@ -57,12 +51,6 @@ const faqData: FAQItem[] = [
     question: '解約の条件や制約はありますか？',
     answer: '契約期間の縛りはなく、いつでも解約可能です。月額プランは月末締め、年額プランは日割り計算での返金に対応しています。解約時のデータエクスポートやマイグレーションサポートも提供いたします。',
     category: 'pricing'
-  },
-  {
-    id: 9,
-    question: '既存のシステムとの連携は可能ですか？',
-    answer: 'はい、APIを活用した既存システムとの連携をサポートしています。Slack、Microsoft Teams、Google Workspace、Salesforceなど主要なビジネスツールとの統合実績があります。カスタム連携についても個別対応いたします。',
-    category: 'implementation'
   },
   {
     id: 10,
@@ -208,15 +196,6 @@ export default function FAQ() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
               無料相談を申し込む
-            </a>
-            <a
-              href="tel:03-1234-5678"
-              className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-blue-600 transform hover:scale-105 transition-all duration-200"
-            >
-              <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              お電話でのご相談
             </a>
           </div>
         </div>

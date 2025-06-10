@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <span className="inline-block px-6 py-2 bg-blue-600 bg-opacity-10 text-blue-800 rounded-full text-sm font-semibold mb-4">
-              日本初・法人向け生成AIスクール
+              新時代Vibe Workingするためのアカデミー
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               <span className="block">最速で業務に使える</span>
@@ -24,9 +24,9 @@ export default function Hero() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              実務直結のAIテンプレート50種類と週次Sprint型カリキュラムで、<br />
+              実務直結のAIテンプレート50種類と週次でアウトプットを出す実践型カリキュラムで、<br />
               御社の全社員がAIを使いこなすチームへ。<br />
-              <span className="font-semibold text-blue-600">助成金対応・Slackサポート付き</span>
+              <span className="font-semibold text-blue-600">Slackサポート付き</span>
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -43,8 +43,8 @@ export default function Hero() {
                 <div className="text-xs text-gray-600">業務効率化</div>
               </div>
               <div className="text-center p-4 bg-white bg-opacity-80 rounded-lg backdrop-blur-sm">
-                <div className="text-2xl font-bold text-orange-600">100%</div>
-                <div className="text-xs text-gray-600">助成金対応</div>
+                <div className="text-2xl font-bold text-orange-600">Chatbot</div>
+                <div className="text-xs text-gray-600">提供</div>
               </div>
             </div>
 
@@ -53,7 +53,7 @@ export default function Hero() {
                 href="#pricing"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-lg hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-200 shadow-xl"
               >
-                7日間無料体験を始める
+                5日体験を始める
               </a>
               <a
                 href="#subsidy"

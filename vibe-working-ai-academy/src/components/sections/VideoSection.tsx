@@ -42,7 +42,7 @@ export default function VideoSection() {
               </span>
               <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                  AIVANCE
+                  Vibe Working Academy
                 </span>
                 の実際の学習体験
               </h2>
@@ -109,7 +109,7 @@ export default function VideoSection() {
                       frameBorder="0"
                       allow="autoplay; fullscreen; picture-in-picture"
                       allowFullScreen
-                      title="AIVANCE 紹介動画"
+                      title="Vibe Working Academy 紹介動画"
                     />
                   </div>
                 )}
@@ -150,32 +150,7 @@ export default function VideoSection() {
                 </div>
               )}
 
-              {/* CTA */}
-              <div className="text-center mt-12">
-                <p className="text-lg text-gray-600 mb-6">
-                  動画をご覧いただいた方には特別資料をプレゼント
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="#pricing"
-                    className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-lg hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-200 shadow-xl"
-                  >
-                    <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                    無料体験を申し込む
-                  </a>
-                  <a
-                    href="#subsidy"
-                    className="inline-flex items-center px-8 py-4 bg-white border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-200 shadow-lg"
-                  >
-                    <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                    カリキュラム詳細資料をダウンロード
-                  </a>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>

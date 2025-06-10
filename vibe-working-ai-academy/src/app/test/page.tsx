@@ -2,7 +2,7 @@ export default function TestPage() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">AIVANCE</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Vibe Working Academy</h1>
         <p className="text-xl text-gray-600 mb-6">法人向け生成AIスクール</p>
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-blue-50 p-4 rounded-lg">

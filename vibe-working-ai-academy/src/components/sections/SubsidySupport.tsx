@@ -101,38 +101,24 @@ const subsidyPrograms: SubsidyProgram[] = [
 const subsidyFlow = [
   {
     step: 1,
-    title: '無料相談',
-    description: '助成金の専門家があなたの会社の状況をヒアリング',
-    duration: '30分',
-    icon: '📞'
+    title: 'Chatbot無料診断',
+    description: '最新の助成金情報に精通したAI Chatbotが、貴社に最適な制度を即座に診断します。',
+    duration: '約5分',
+    icon: '🤖'
   },
   {
     step: 2,
     title: '最適プラン提案',
-    description: '利用可能な助成金・補助金と受講プランをご提案',
-    duration: '1週間',
+    description: '診断結果を基に、AIが具体的な助成金活用プランと研修コースを自動でご提案します。',
+    duration: '1営業日',
     icon: '📋'
   },
   {
     step: 3,
-    title: '申請書類作成',
-    description: '必要書類の作成を完全サポート（代行可能）',
-    duration: '2-3週間',
+    title: '申請書類作成アシスト',
+    description: 'AIが申請書類のドラフトを自動生成し、提出までを完全にサポート。面倒な手続きを大幅に効率化します。',
+    duration: '3営業日〜',
     icon: '📝'
-  },
-  {
-    step: 4,
-    title: '受講開始',
-    description: '助成金申請と並行してAIVANCE受講スタート',
-    duration: '8週間',
-    icon: '🚀'
-  },
-  {
-    step: 5,
-    title: '助成金受給',
-    description: '成果報告書提出後、助成金を受給',
-    duration: '1-2ヶ月',
-    icon: '💰'
   }
 ]
 
@@ -170,15 +156,9 @@ export default function SubsidySupport() {
             助成金・補助金サポート
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-              実質負担0円
-            </span>
-            でAI研修を導入
+            助成金・補助金でAI研修導入をもっとお得に！
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            人材開発支援助成金をはじめ、各種助成金・補助金の申請を完全サポート。<br />
-            専門スタッフが書類作成から受給まで伴走いたします。
-          </p>
+
         </div>
 
         {/* 助成金プログラム選択 */}
@@ -255,7 +235,7 @@ export default function SubsidySupport() {
 
                 {/* 右側：サポート内容 */}
                 <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-6">
-                  <h5 className="text-xl font-bold text-gray-900 mb-4">AIVANCEのサポート内容</h5>
+                  <h5 className="text-xl font-bold text-gray-900 mb-4">Vibe Working Academyのサポート内容</h5>
                   <div className="space-y-4">
                     <div className="flex items-start">
                       <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3 mt-1">
@@ -309,10 +289,10 @@ export default function SubsidySupport() {
         {/* 助成金受給フロー */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-            助成金受給までの流れ
+            弊社が提供する助成金、補助金受給アシストchatbotのご案内
           </h3>
-          <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-5 gap-4">
+                     <div className="max-w-4xl mx-auto">
+             <div className="grid md:grid-cols-3 gap-8">
               {subsidyFlow.map((step, index) => (
                 <div key={step.step} className="text-center">
                   <div className="relative">
@@ -434,20 +414,11 @@ export default function SubsidySupport() {
 
         {/* CTA */}
         <div className="text-center bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-12 text-white">
-          <h3 className="text-3xl font-bold mb-4">助成金を活用して今すぐAI研修を開始</h3>
+          <h3 className="text-3xl font-bold mb-4">補助金、助成金を活用してAI研修を開始</h3>
           <p className="text-xl mb-8 opacity-90">
             専門スタッフによる無料相談で、あなたの会社に最適な助成金をご提案します
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#contact"
-              className="inline-flex items-center px-8 py-4 bg-white text-green-600 font-bold rounded-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-lg"
-            >
-              <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              助成金無料相談を申し込む
-            </a>
             <a
               href="/download/subsidy-guide.pdf"
               className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-green-600 transform hover:scale-105 transition-all duration-200"

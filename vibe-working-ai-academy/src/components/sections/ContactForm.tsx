@@ -175,7 +175,6 @@ export default function ContactForm() {
                 >
                   <option value="">選択してください</option>
                   <option value="basic">基礎コース</option>
-                  <option value="practical">実践コース</option>
                   <option value="expert">専門コース</option>
                   <option value="consultation">まずは相談したい</option>
                 </select>

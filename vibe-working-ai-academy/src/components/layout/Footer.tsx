@@ -46,33 +46,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* クイックリンク */}
-          <div>
-            <h4 className="text-lg font-medium mb-4">コース</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-wa-gray-400 hover:text-wa-white transition-colors">
-                  基礎コース
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-wa-gray-400 hover:text-wa-white transition-colors">
-                  実践コース
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-wa-gray-400 hover:text-wa-white transition-colors">
-                  専門コース
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-wa-gray-400 hover:text-wa-white transition-colors">
-                  企業研修
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* 会社情報 */}
           <div>
             <h4 className="text-lg font-medium mb-4">会社情報</h4>
@@ -80,11 +53,6 @@ export default function Footer() {
               <li>
                 <a href="#" className="text-wa-gray-400 hover:text-wa-white transition-colors">
                   会社概要
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-wa-gray-400 hover:text-wa-white transition-colors">
-                  講師紹介
                 </a>
               </li>
               <li>
